@@ -98,11 +98,6 @@
       "idiom" : "ios-marketing",
       "filename" : "appicon.png",
       "scale" : "1x"
-    },
-    {
-      "idiom" : "universal",
-      "filename" : "ios-marketing.png",
-      "scale" : "1x"
     }
   ],
   "info" : {

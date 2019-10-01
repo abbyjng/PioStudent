@@ -1,0 +1,839 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB8993C86E017B3E5D8EA2C2 /* Pods_PioStudentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1EE80EC57038707C51B14B3 /* Pods_PioStudentUITests.framework */; };
+		BF627EC9228C57DB00D2ED98 /* AcceptedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF627EC8228C57DA00D2ED98 /* AcceptedTableViewController.swift */; };
+		BFAD00DE2256D77C00C750FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAD00DD2256D77C00C750FB /* AppDelegate.swift */; };
+		BFAD00E32256D77C00C750FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFAD00E12256D77C00C750FB /* Main.storyboard */; };
+		BFAD00E52256D77F00C750FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFAD00E42256D77F00C750FB /* Assets.xcassets */; };
+		BFAD00E82256D77F00C750FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFAD00E62256D77F00C750FB /* LaunchScreen.storyboard */; };
+		BFAD00F32256D77F00C750FB /* PioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAD00F22256D77F00C750FB /* PioTests.swift */; };
+		BFAD00FE2256D77F00C750FB /* PioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAD00FD2256D77F00C750FB /* PioUITests.swift */; };
+		BFC65DA6225801F40018868D /* AddRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC65DA5225801F40018868D /* AddRequestViewController.swift */; };
+		BFC65DAA22580D870018868D /* ListingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC65DA922580D870018868D /* ListingsTableViewController.swift */; };
+		BFC65DAC22580EAD0018868D /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC65DAB22580EAD0018868D /* Request.swift */; };
+		BFC65DAE22585F870018868D /* RequestDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC65DAD22585F870018868D /* RequestDetailViewController.swift */; };
+		BFC65DB0225914610018868D /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC65DAF225914610018868D /* Person.swift */; };
+		BFC65DB2225917440018868D /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC65DB1225917440018868D /* CreateAccountViewController.swift */; };
+		BFC65DB4225920320018868D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC65DB3225920320018868D /* ProfileViewController.swift */; };
+		BFC65DB6225AE5780018868D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC65DB5225AE5780018868D /* LoginViewController.swift */; };
+		BFF0FC2E2271FD480057C79A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BFF0FC2D2271FD470057C79A /* GoogleService-Info.plist */; };
+		BFF0FC2F2271FD480057C79A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BFF0FC2D2271FD470057C79A /* GoogleService-Info.plist */; };
+		BFF0FC302271FD480057C79A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BFF0FC2D2271FD470057C79A /* GoogleService-Info.plist */; };
+		E3E165AC0596ECFEEF52D198 /* Pods_PioStudent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7766C554F143551B326120 /* Pods_PioStudent.framework */; };
+		FC1FC913C5F2581847A2437B /* Pods_PioStudentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26B8A1984B682D74DF38E65B /* Pods_PioStudentTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFAD00EF2256D77F00C750FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFAD00D22256D77C00C750FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFAD00D92256D77C00C750FB;
+			remoteInfo = Pio;
+		};
+		BFAD00FA2256D77F00C750FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFAD00D22256D77C00C750FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFAD00D92256D77C00C750FB;
+			remoteInfo = Pio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A358EE6F922961D5EAF1B5B /* Pods-PioStudent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PioStudent.release.xcconfig"; path = "Target Support Files/Pods-PioStudent/Pods-PioStudent.release.xcconfig"; sourceTree = "<group>"; };
+		14CE2CA28D1B9843EE8897CC /* Pods-PioStudentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PioStudentUITests.release.xcconfig"; path = "Target Support Files/Pods-PioStudentUITests/Pods-PioStudentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		26B8A1984B682D74DF38E65B /* Pods_PioStudentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PioStudentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E0E40B5DDD258DAC8708F1B /* Pods-PioStudentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PioStudentTests.debug.xcconfig"; path = "Target Support Files/Pods-PioStudentTests/Pods-PioStudentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3F7766C554F143551B326120 /* Pods_PioStudent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PioStudent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64621A903DD8767012762C53 /* Pods-PioStudentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PioStudentTests.release.xcconfig"; path = "Target Support Files/Pods-PioStudentTests/Pods-PioStudentTests.release.xcconfig"; sourceTree = "<group>"; };
+		A1EE80EC57038707C51B14B3 /* Pods_PioStudentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PioStudentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE0B6E741CF913564407CBBD /* Pods-PioStudent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PioStudent.debug.xcconfig"; path = "Target Support Files/Pods-PioStudent/Pods-PioStudent.debug.xcconfig"; sourceTree = "<group>"; };
+		BF627EC8228C57DA00D2ED98 /* AcceptedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceptedTableViewController.swift; sourceTree = "<group>"; };
+		BFAD00DA2256D77C00C750FB /* PioStudent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PioStudent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFAD00DD2256D77C00C750FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFAD00E22256D77C00C750FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFAD00E42256D77F00C750FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFAD00E72256D77F00C750FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFAD00E92256D77F00C750FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFAD00EE2256D77F00C750FB /* PioStudentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PioStudentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFAD00F22256D77F00C750FB /* PioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PioTests.swift; sourceTree = "<group>"; };
+		BFAD00F42256D77F00C750FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFAD00F92256D77F00C750FB /* PioStudentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PioStudentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFAD00FD2256D77F00C750FB /* PioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PioUITests.swift; sourceTree = "<group>"; };
+		BFAD00FF2256D77F00C750FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFC65DA5225801F40018868D /* AddRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddRequestViewController.swift; path = ../AddRequestViewController.swift; sourceTree = "<group>"; };
+		BFC65DA922580D870018868D /* ListingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ListingsTableViewController.swift; path = ../ListingsTableViewController.swift; sourceTree = "<group>"; };
+		BFC65DAB22580EAD0018868D /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		BFC65DAD22585F870018868D /* RequestDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestDetailViewController.swift; sourceTree = "<group>"; };
+		BFC65DAF225914610018868D /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		BFC65DB1225917440018868D /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		BFC65DB3225920320018868D /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		BFC65DB5225AE5780018868D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BFF0FC2D2271FD470057C79A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FD42B3EEDAE21113EA9E5A4A /* Pods-PioStudentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PioStudentUITests.debug.xcconfig"; path = "Target Support Files/Pods-PioStudentUITests/Pods-PioStudentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFAD00D72256D77C00C750FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3E165AC0596ECFEEF52D198 /* Pods_PioStudent.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFAD00EB2256D77F00C750FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1FC913C5F2581847A2437B /* Pods_PioStudentTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFAD00F62256D77F00C750FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB8993C86E017B3E5D8EA2C2 /* Pods_PioStudentUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80CB9DA3322D382F5EC8E985 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F7766C554F143551B326120 /* Pods_PioStudent.framework */,
+				26B8A1984B682D74DF38E65B /* Pods_PioStudentTests.framework */,
+				A1EE80EC57038707C51B14B3 /* Pods_PioStudentUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		851F7DBA120C693C97FB6E4E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE0B6E741CF913564407CBBD /* Pods-PioStudent.debug.xcconfig */,
+				0A358EE6F922961D5EAF1B5B /* Pods-PioStudent.release.xcconfig */,
+				3E0E40B5DDD258DAC8708F1B /* Pods-PioStudentTests.debug.xcconfig */,
+				64621A903DD8767012762C53 /* Pods-PioStudentTests.release.xcconfig */,
+				FD42B3EEDAE21113EA9E5A4A /* Pods-PioStudentUITests.debug.xcconfig */,
+				14CE2CA28D1B9843EE8897CC /* Pods-PioStudentUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BFAD00D12256D77C00C750FB = {
+			isa = PBXGroup;
+			children = (
+				BFAD00DC2256D77C00C750FB /* PioStudent */,
+				BFAD00F12256D77F00C750FB /* PioStudentTests */,
+				BFAD00FC2256D77F00C750FB /* PioStudentUITests */,
+				BFAD00DB2256D77C00C750FB /* Products */,
+				851F7DBA120C693C97FB6E4E /* Pods */,
+				80CB9DA3322D382F5EC8E985 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BFAD00DB2256D77C00C750FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFAD00DA2256D77C00C750FB /* PioStudent.app */,
+				BFAD00EE2256D77F00C750FB /* PioStudentTests.xctest */,
+				BFAD00F92256D77F00C750FB /* PioStudentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFAD00DC2256D77C00C750FB /* PioStudent */ = {
+			isa = PBXGroup;
+			children = (
+				BFAD00DD2256D77C00C750FB /* AppDelegate.swift */,
+				BFC65DB5225AE5780018868D /* LoginViewController.swift */,
+				BFC65DB1225917440018868D /* CreateAccountViewController.swift */,
+				BFC65DB3225920320018868D /* ProfileViewController.swift */,
+				BFC65DA922580D870018868D /* ListingsTableViewController.swift */,
+				BF627EC8228C57DA00D2ED98 /* AcceptedTableViewController.swift */,
+				BFC65DA5225801F40018868D /* AddRequestViewController.swift */,
+				BFC65DAD22585F870018868D /* RequestDetailViewController.swift */,
+				BFAD00E12256D77C00C750FB /* Main.storyboard */,
+				BFC65DAB22580EAD0018868D /* Request.swift */,
+				BFC65DAF225914610018868D /* Person.swift */,
+				BFAD00E42256D77F00C750FB /* Assets.xcassets */,
+				BFAD00E62256D77F00C750FB /* LaunchScreen.storyboard */,
+				BFAD00E92256D77F00C750FB /* Info.plist */,
+				BFF0FC2D2271FD470057C79A /* GoogleService-Info.plist */,
+			);
+			path = PioStudent;
+			sourceTree = "<group>";
+		};
+		BFAD00F12256D77F00C750FB /* PioStudentTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFAD00F22256D77F00C750FB /* PioTests.swift */,
+				BFAD00F42256D77F00C750FB /* Info.plist */,
+			);
+			path = PioStudentTests;
+			sourceTree = "<group>";
+		};
+		BFAD00FC2256D77F00C750FB /* PioStudentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFAD00FD2256D77F00C750FB /* PioUITests.swift */,
+				BFAD00FF2256D77F00C750FB /* Info.plist */,
+			);
+			path = PioStudentUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFAD00D92256D77C00C750FB /* PioStudent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFAD01022256D77F00C750FB /* Build configuration list for PBXNativeTarget "PioStudent" */;
+			buildPhases = (
+				70C16FD984D018FD5E431123 /* [CP] Check Pods Manifest.lock */,
+				BFAD00D62256D77C00C750FB /* Sources */,
+				BFAD00D72256D77C00C750FB /* Frameworks */,
+				BFAD00D82256D77C00C750FB /* Resources */,
+				A9456676673DC1083A66F0C9 /* [CP] Embed Pods Frameworks */,
+				AC6F6728DB0B97B2673E61BF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PioStudent;
+			productName = Pio;
+			productReference = BFAD00DA2256D77C00C750FB /* PioStudent.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFAD00ED2256D77F00C750FB /* PioStudentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFAD01052256D77F00C750FB /* Build configuration list for PBXNativeTarget "PioStudentTests" */;
+			buildPhases = (
+				340CCDFA52F95A31A17EF53D /* [CP] Check Pods Manifest.lock */,
+				BFAD00EA2256D77F00C750FB /* Sources */,
+				BFAD00EB2256D77F00C750FB /* Frameworks */,
+				BFAD00EC2256D77F00C750FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFAD00F02256D77F00C750FB /* PBXTargetDependency */,
+			);
+			name = PioStudentTests;
+			productName = PioTests;
+			productReference = BFAD00EE2256D77F00C750FB /* PioStudentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFAD00F82256D77F00C750FB /* PioStudentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFAD01082256D77F00C750FB /* Build configuration list for PBXNativeTarget "PioStudentUITests" */;
+			buildPhases = (
+				10144607111658A896F0A1A2 /* [CP] Check Pods Manifest.lock */,
+				BFAD00F52256D77F00C750FB /* Sources */,
+				BFAD00F62256D77F00C750FB /* Frameworks */,
+				BFAD00F72256D77F00C750FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFAD00FB2256D77F00C750FB /* PBXTargetDependency */,
+			);
+			name = PioStudentUITests;
+			productName = PioUITests;
+			productReference = BFAD00F92256D77F00C750FB /* PioStudentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFAD00D22256D77C00C750FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Abigail Ng";
+				TargetAttributes = {
+					BFAD00D92256D77C00C750FB = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					BFAD00ED2256D77F00C750FB = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = BFAD00D92256D77C00C750FB;
+					};
+					BFAD00F82256D77F00C750FB = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = BFAD00D92256D77C00C750FB;
+					};
+				};
+			};
+			buildConfigurationList = BFAD00D52256D77C00C750FB /* Build configuration list for PBXProject "PioStudent" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFAD00D12256D77C00C750FB;
+			productRefGroup = BFAD00DB2256D77C00C750FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFAD00D92256D77C00C750FB /* PioStudent */,
+				BFAD00ED2256D77F00C750FB /* PioStudentTests */,
+				BFAD00F82256D77F00C750FB /* PioStudentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFAD00D82256D77C00C750FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFAD00E82256D77F00C750FB /* LaunchScreen.storyboard in Resources */,
+				BFF0FC2E2271FD480057C79A /* GoogleService-Info.plist in Resources */,
+				BFAD00E52256D77F00C750FB /* Assets.xcassets in Resources */,
+				BFAD00E32256D77C00C750FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFAD00EC2256D77F00C750FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF0FC2F2271FD480057C79A /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFAD00F72256D77F00C750FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF0FC302271FD480057C79A /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10144607111658A896F0A1A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PioStudentUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		340CCDFA52F95A31A17EF53D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PioStudentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70C16FD984D018FD5E431123 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PioStudent-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9456676673DC1083A66F0C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PioStudent/Pods-PioStudent-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PioStudent/Pods-PioStudent-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC6F6728DB0B97B2673E61BF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PioStudent/Pods-PioStudent-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAnonymousAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseEmailAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseFacebookAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseGoogleAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebasePhoneAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseTwitterAuthUI.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAnonymousAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseEmailAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseFacebookAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseGoogleAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebasePhoneAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseTwitterAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PioStudent/Pods-PioStudent-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFAD00D62256D77C00C750FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC65DB6225AE5780018868D /* LoginViewController.swift in Sources */,
+				BFC65DAA22580D870018868D /* ListingsTableViewController.swift in Sources */,
+				BFC65DAE22585F870018868D /* RequestDetailViewController.swift in Sources */,
+				BFC65DA6225801F40018868D /* AddRequestViewController.swift in Sources */,
+				BFC65DAC22580EAD0018868D /* Request.swift in Sources */,
+				BFC65DB2225917440018868D /* CreateAccountViewController.swift in Sources */,
+				BFC65DB0225914610018868D /* Person.swift in Sources */,
+				BFC65DB4225920320018868D /* ProfileViewController.swift in Sources */,
+				BF627EC9228C57DB00D2ED98 /* AcceptedTableViewController.swift in Sources */,
+				BFAD00DE2256D77C00C750FB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFAD00EA2256D77F00C750FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFAD00F32256D77F00C750FB /* PioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFAD00F52256D77F00C750FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFAD00FE2256D77F00C750FB /* PioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFAD00F02256D77F00C750FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFAD00D92256D77C00C750FB /* PioStudent */;
+			targetProxy = BFAD00EF2256D77F00C750FB /* PBXContainerItemProxy */;
+		};
+		BFAD00FB2256D77F00C750FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFAD00D92256D77C00C750FB /* PioStudent */;
+			targetProxy = BFAD00FA2256D77F00C750FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFAD00E12256D77C00C750FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFAD00E22256D77C00C750FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFAD00E62256D77F00C750FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFAD00E72256D77F00C750FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFAD01002256D77F00C750FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFAD01012256D77F00C750FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFAD01032256D77F00C750FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE0B6E741CF913564407CBBD /* Pods-PioStudent.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B97FHMMA5F;
+				INFOPLIST_FILE = PioStudent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.a2schools.piostudent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BFAD01042256D77F00C750FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A358EE6F922961D5EAF1B5B /* Pods-PioStudent.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B97FHMMA5F;
+				INFOPLIST_FILE = PioStudent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.a2schools.piostudent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		BFAD01062256D77F00C750FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E0E40B5DDD258DAC8708F1B /* Pods-PioStudentTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B97FHMMA5F;
+				INFOPLIST_FILE = PioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abbyng.PioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PioStudent.app/PioStudent";
+			};
+			name = Debug;
+		};
+		BFAD01072256D77F00C750FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64621A903DD8767012762C53 /* Pods-PioStudentTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B97FHMMA5F;
+				INFOPLIST_FILE = PioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abbyng.PioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PioStudent.app/PioStudent";
+			};
+			name = Release;
+		};
+		BFAD01092256D77F00C750FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD42B3EEDAE21113EA9E5A4A /* Pods-PioStudentUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B97FHMMA5F;
+				INFOPLIST_FILE = PioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abbyng.PioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pio;
+			};
+			name = Debug;
+		};
+		BFAD010A2256D77F00C750FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14CE2CA28D1B9843EE8897CC /* Pods-PioStudentUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B97FHMMA5F;
+				INFOPLIST_FILE = PioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abbyng.PioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFAD00D52256D77C00C750FB /* Build configuration list for PBXProject "PioStudent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFAD01002256D77F00C750FB /* Debug */,
+				BFAD01012256D77F00C750FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFAD01022256D77F00C750FB /* Build configuration list for PBXNativeTarget "PioStudent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFAD01032256D77F00C750FB /* Debug */,
+				BFAD01042256D77F00C750FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFAD01052256D77F00C750FB /* Build configuration list for PBXNativeTarget "PioStudentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFAD01062256D77F00C750FB /* Debug */,
+				BFAD01072256D77F00C750FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFAD01082256D77F00C750FB /* Build configuration list for PBXNativeTarget "PioStudentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFAD01092256D77F00C750FB /* Debug */,
+				BFAD010A2256D77F00C750FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFAD00D22256D77C00C750FB /* Project object */;
+}
